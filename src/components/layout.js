@@ -29,19 +29,25 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          maxWidth: 900,
+          padding: `10.0875rem 2.5rem 3.0875rem 2.5rem`,
         }}
       >
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
       </div>
+      <footer style={{
+          position: 'fixed',
+          bottom: 0,
+          padding: `0.725rem 1.0875rem`,
+          backgroundColor: '#DBFF01',
+          width: '100vw',
+          textAlign: 'center'
+        }}>
+          TLDR; Sydney Essex would be a great asset to your next team, project, gig, squad outing, venture, book club, brainstorm...
+          {/* Sydney Essex © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.com">Gatsby</a> */}
+        </footer>
     </>
   )
 }

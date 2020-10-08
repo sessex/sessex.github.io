@@ -1,0 +1,22 @@
+.Project-header {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    column-gap: 1em;
+    margin-bottom: 1.8em;
+}
+
+.Project-body {
+    margin-bottom: 1.8em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.spacer {
+    margin-bottom: 1.8em;
+}
+
+.no-margin { 
+    margin-bottom: 0;
+}
